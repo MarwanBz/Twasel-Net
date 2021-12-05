@@ -40,7 +40,7 @@ $(endif)
 			<div id="userDetails">
 				<form action="$(link-logout)" name="logout" onSubmit="return openLogout()">
 					<table>
-						<h1 id="status" class="main-heading"> انظر الى تفاصيل حسابك في الأسفل </h1>
+						<h1 id="status" class="main-heading"> انظر الى تفاصيل حسابك في الأسفل  $(username) </h1>
 						<tr>
 							<td class="balance"><span class="arrow">&#8595;</span>الرصيد
 								المتبقي</td>
@@ -49,6 +49,9 @@ $(endif)
 							<td class="bytes-out">
 								<script>
 										document.write(($(limit-bytes-out) / 1048576).toFixed(2) + 'MB')
+								</script>
+								<script>
+										document.write(($(remain-bytes-total)/1048576).toFixed(2)+ 'MB')
 								</script>
 							</td>
 						</tr>
@@ -77,7 +80,7 @@ $(endif)
 		</p>
 
 		<p>
-			تصميم وبرمجة <span><a class="programmer" href="tel:+967770108459"> Baz </a> <a class="programmer" href="">
+			تصميم وبرمجة <span><a class="programmer" href="tel:+967770108459"> Baz </a> <a class="programmer" href="+967702020128">
 					Marwan</a></span>
 		</p>
 
