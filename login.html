@@ -75,6 +75,10 @@
 							document.write('هذا الحساب منتهي الصلاحية');
 							break;
 
+						case 'simultaneous session limit reached':
+							document.write('الكرت مستخدم في جهاز آخر');
+							break;
+
 						default:
 							res = verror.innerHTML;
 							res = res.replace("user", "المستخدم");
