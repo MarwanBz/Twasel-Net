@@ -151,7 +151,9 @@ div .login form input::placeholder {
 	align-items: center;
 	justify-content: space-evenly;
 	margin: 0 20px;
-	height: 50vh;
+	height: 340px;
+	max-height: -moz-fit-content;
+	max-height: fit-content;
 }
 
 .block .content>ul {
@@ -278,6 +280,7 @@ div.alogin a {
 	width: 70vw;
 	text-align: center;
 	margin: 30px 0;
+	max-width: 700px;
 }
 
 /* !End of alogin styling */
