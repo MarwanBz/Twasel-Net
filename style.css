@@ -316,7 +316,7 @@ div#s-content {
 	align-items: center;
 	align-content: center;
 	justify-content: center;
-	height: 70vh;
+	/*height: 70vh;*/
 }
 
 div#s-content #userDetails form {
@@ -326,6 +326,7 @@ div#s-content #userDetails form {
 	align-content: center;
 	flex-wrap: nowrap;
 	align-items: center;
+	margin-top: 50px;
 }
 
 /* div#s-content #userDetails form table {
