@@ -61,6 +61,9 @@ $(endif)
 						</tr>
 						<tr>
 							<td class="time-left">$(session-time-left)</td>
+							<script type="text/javascript">
+								document.querySelector(".time-left").innerHTML = "$(session-time-left)".replace("w", " أسبوع , ").replace("d", " يوم , ").replace("h", " ساعة , ").replace("m", " دقيقة , ").replace("s", " ثانية");
+							</script>
 						</tr>
 
 					</table>
