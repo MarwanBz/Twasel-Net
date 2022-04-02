@@ -37,6 +37,8 @@
 			<div class="main-heading">
 				<h1 class="welcome">مرحبا بك قم بتسجيل الدخول</h1>
 			</div>
+			<div class="ramadan"><a href="./ramadan.html"><img src="./images/rama.png" alt=""></a></div>
+			<h2>أظغط على الصورة</h2>
 			<div class="sidebare">
 				<div class="login">
 					<form name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()"
@@ -44,7 +46,7 @@
 						<input type="hidden" name="dst" value="$(link-orig)" />
 						<input type="hidden" name="popup" value="true" />
 						<input id="user" type="text" name="username" value="$(username)" placeholder="رمز الدخول  : ">
-						<input id="pass" type="password" name="password" placeholder="كلمة المرور   : ">
+						<!-- <input id="pass" type="password" name="password" placeholder="كلمة المرور   : "> -->
 						<input type="submit" id="loginBtn" value="تسجيل الدخول" />
 						<!-- <input type="submit" value="دخول" /> !-->
 					</form>

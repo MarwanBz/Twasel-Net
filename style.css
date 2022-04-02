@@ -413,6 +413,26 @@ span.arrow {
 }
 
 /* !end of status page */
+/* !start of ramadan page */
+div.ramadan {
+	padding-top: 20px;
+}
+
+div#ramadan {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 50vh;
+	padding: 10px 20px;
+	margin-top: 30px;
+}
+
+div#ramadan p {
+	line-height: 1.8;
+}
+
+/* !end of ramadan page */
 
 /* !media queries styling for login */
 @media screen and (max-width: 600px) {
