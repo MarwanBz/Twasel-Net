@@ -42,6 +42,10 @@ body {
 	margin: auto;
 }
 
+#wrap #content .main-heading {
+	width: 40%;
+}
+
 /* !inputs login styling */
 div .login form input {
 	display: block;
@@ -469,6 +473,10 @@ div#ramadan p {
 
 	#wrap #content .sidebare .login input {
 		width: 85vw;
+	}
+
+	#wrap #content .main-heading {
+		width: 100%;
 	}
 
 	#message {
